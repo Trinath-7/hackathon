@@ -1,0 +1,11 @@
+{
+  "name": "startupos-root",
+  "version": "1.0.0",
+  "description": "StartupOS AI Root Configuration",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "backend": "cd backend && venv\\Scripts\\activate && python run.py",
+    "frontend": "npm run dev --prefix frontend",
+    "start": "run.bat"
+  }
+}
