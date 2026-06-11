@@ -29,3 +29,9 @@ build/
 *.njsproj
 *.sln
 *.sw?
+
+# Database files
+*.db
+backend/instance/*.db
+backend/instance/
+
